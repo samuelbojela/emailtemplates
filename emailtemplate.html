@@ -38,6 +38,19 @@
       padding: 10px 20px;
       border-radius: 4px;
     }
+    /* Responsive styles */
+    @media (max-width: 600px) {
+      /* Adjust the font size for better readability on small screens */
+      .banner h1 {
+        font-size: 24px;
+      }
+      .body-content p {
+        font-size: 14px;
+      }
+      .footer a.button {
+        padding: 8px 16px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -46,8 +59,8 @@
   </div>
   <div class="body-content">
     <p>Hello [User],</p>
-    <p>This is a sample email notification template for your application. 
-You can customize the content of this email as per your requirements.</p>
+    <p>This is a sample email notification template for your application. You can customize the content 
+of this email as per your requirements.</p>
     <p>Thank you for using our application!</p>
     <p>Best regards,</p>
     <p>Your Application Team</p>
